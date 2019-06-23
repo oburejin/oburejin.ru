@@ -1,4 +1,4 @@
-baseURL = "https://oburejin.ru"
+baseURL = "/"
 languageCode = "en-us"
 title = "oburejin"
 theme = "jane"

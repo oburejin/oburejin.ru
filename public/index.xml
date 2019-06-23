@@ -2,13 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>oburejin</title>
-    <link>https://oburejin.ru/</link>
+    <link>/</link>
     <description>Recent content on oburejin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jun 2019 21:27:59 +0300</lastBuildDate>
     
-        <atom:link href="https://oburejin.ru/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Intro</title>
+      <link>/post/intro/</link>
+      <pubDate>Sun, 23 Jun 2019 21:27:59 +0300</pubDate>
+      
+      <guid>/post/intro/</guid>
+      
+        <description>Hi, my name is Max This is my journey into the HUGO websites creation. There are many like it but this one is mine. I&amp;rsquo;ll share my experience and feelings about this. We&amp;rsquo;ll see where it&amp;rsquo;ll take me and what this site will be about. But for now it&amp;rsquo;ll be about my journey.
+Nice to see you here, although I can&amp;rsquo;t really see anybody as here is no trackers or ads, if you want to say hi — I&amp;rsquo;m on twitter @oburejin</description>
+      
+    </item>
     
   </channel>
 </rss>
