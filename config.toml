@@ -1,20 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "oburejin"
-theme = "terminal"
-[params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "post"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-  # set theme to full screen width
-  fullWidthTheme = false
-  # center theme with default width
-  centerTheme = false
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+theme = "o2"
+# theme = "terminal"
 
 [languages]
   [languages.en]
