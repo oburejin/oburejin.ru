@@ -6,18 +6,18 @@
     <description>Recent content on oburejin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2019 21:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2019 21:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Moving to Netlify</title>
-      <link>/post/moving/</link>
-      <pubDate>Mon, 29 Jul 2019 21:00:00 +0000</pubDate>
+      <link>/post/moving-to-netlify/</link>
+      <pubDate>Tue, 30 Jul 2019 21:00:00 +0000</pubDate>
       
-      <guid>/post/moving/</guid>
-      <description>Moving to Netlify Trying this thing out, will it work for me? Will I be able to use a admin panel for writing and managing? We&amp;rsquo;ll see.</description>
+      <guid>/post/moving-to-netlify/</guid>
+      <description>Moving to Netlify Trying to move hosting to a Netlify. Process was quite fast, actually, but now for some reason I can&amp;rsquo;t build it. Github gives me an error that it can&amp;rsquo;t build, thought I thought that Netlify should give me it.</description>
     </item>
     
     <item>

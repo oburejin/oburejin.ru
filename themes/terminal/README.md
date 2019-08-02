@@ -22,9 +22,6 @@
 ## Features
 
 - **5 duetone themes**, depending on your preferences (orange is default, red, blue, green, pink)
-- [**Fira Code**](https://github.com/tonsky/FiraCode) as default monospaced font. It's gorgeous!
-- **really nice duotone**, custom syntax highlighting based on [**PrismJS**](https://prismjs.com)
-- fully responsive
 
 #### Built-in shortcodes
 
