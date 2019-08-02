@@ -1,8 +1,6 @@
 {{ define "main" }}
 <div class="post">
-  <h1 class="post-title">
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-  </h1>
+  <a class="post-title" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
 
   <div class="post-meta">
     {{ if .Params.Date }}

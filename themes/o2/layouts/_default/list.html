@@ -3,10 +3,10 @@
 {{ range .Pages.ByDate.Reverse }}
   <li class="post-preview">
     <a class="post-preview-link" href="{{.Permalink}}">
-      {{.Title}}
-
-      <time datetime={{.Date.Format "2006-01-02"}}>{{.Date.Format "2006-01-02"}}</time>
-
+      <div class='post-preview__title'>
+        {{.Title}}
+      </div>
+      <time class="post-preview__time" datetime={{.Date.Format "2006-01-02"}}>{{.Date.Format "2006-01-02"}}</time>
       <div class="post-summary">
         {{ .Summary | markdownify }}
       </div>
