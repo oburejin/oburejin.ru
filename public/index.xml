@@ -6,10 +6,29 @@
     <description>Recent content on oburejin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jun 2019 21:27:59 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 21:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Moving to Netlify</title>
+      <link>/post/moving/</link>
+      <pubDate>Mon, 29 Jul 2019 21:00:00 +0000</pubDate>
+      
+      <guid>/post/moving/</guid>
+      <description>Moving to Netlify Trying this thing out, will it work for me? Will I be able to use a admin panel for writing and managing? We&amp;rsquo;ll see.</description>
+    </item>
+    
+    <item>
+      <title>Gerrit</title>
+      <link>/post/gerrit/</link>
+      <pubDate>Tue, 25 Jun 2019 19:10:57 +0000</pubDate>
+      
+      <guid>/post/gerrit/</guid>
+      <description>Gerrit. Oh how I don&amp;rsquo;t understand it. Sometimes I&amp;rsquo;m ok with it and sometimes I&amp;rsquo;m lost with &amp;lsquo;why anyone using it in 2019&amp;rsquo;.
+It sits atop GIT, doing same thing but a differently, you need to --amend all the time, you need to &amp;ldquo;Hey please don&amp;rsquo;t forget to git review -d 123456, because I just updated a commit&amp;rdquo; if more than one person working on a commit. An if you do have branches, because you may want to publish things for demos or staging, you git push -f.</description>
+    </item>
     
     <item>
       <title>Intro</title>
@@ -17,10 +36,8 @@
       <pubDate>Sun, 23 Jun 2019 21:27:59 +0300</pubDate>
       
       <guid>/post/intro/</guid>
-      
-        <description>Hi, my name is Max This is my journey into the HUGO websites creation. There are many like it but this one is mine. I&amp;rsquo;ll share my experience and feelings about this. We&amp;rsquo;ll see where it&amp;rsquo;ll take me and what this site will be about. But for now it&amp;rsquo;ll be about my journey.
+      <description>Hi, my name is Max This is my journey into the HUGO websites creation. There are many like it but this one is mine. I&amp;rsquo;ll share my experience and feelings about this. We&amp;rsquo;ll see where it&amp;rsquo;ll take me and what this site will be about. But for now it&amp;rsquo;ll be about my journey.
 Nice to see you here, although I can&amp;rsquo;t really see anybody as here is no trackers or ads, if you want to say hi — I&amp;rsquo;m on twitter @oburejin</description>
-      
     </item>
     
   </channel>
