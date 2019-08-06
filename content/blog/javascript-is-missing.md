@@ -1,5 +1,5 @@
 +++
-date = ""
+date = "2019-08-05T21:00:00+00:00"
 draft = true
 title = "Javascript is missing"
 
@@ -9,6 +9,8 @@ Actually no, I planned to do this without JS as much as possible and for now the
 Also pages are missing, like "About" page or so, but I don't know yet how to do pages on HUGO, sure it should not be hard to do, but I have only a couple of evenings to work on it, so progress is very slow, but I'm learning to accept that and with this seems to work. Even when I spend all my free 30 minutes a day to find some small thing I'm still satisfied that I did that. This doesn't work well for my main activities and I get frustrated when little is achieved (it's most of the times, because this is how things work, little by little), but I'll get there.
 
 This update I added a `shortcode` that allows to insert a raw html, I wanted this to add some small things I can do with HTML/CSS, and maybe JS in some cases.
+
+And here it is.
 
 {{< rawhtml >}}
 
@@ -175,3 +177,5 @@ This update I added a `shortcode` that allows to insert a raw html, I wanted thi
   <div>
 
 {{< /rawhtml >}}
+
+I took
