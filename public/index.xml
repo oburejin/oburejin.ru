@@ -6,37 +6,49 @@
     <description>Recent content on oburejin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Aug 2019 11:39:36 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2019 22:07:28 +0300</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>New theme</title>
+      <link>/blog/02-08-2019/</link>
+      <pubDate>Fri, 02 Aug 2019 22:07:28 +0300</pubDate>
+      
+      <guid>/blog/02-08-2019/</guid>
+      <description>I moved! Finally, transition has been completed and I started to build my own theme.
+My goal is to build as small as possible bundle without JS at all, althought I think about couple of nice features I can use JS, the goal is set to go without it.
+Also, I don&amp;rsquo;t really understand HUGO theming, I got it working.
+ .wrapper { position: relative; width: 100%; height: 100px; background-color: wheat; border-radius: 5px; } .</description>
+    </item>
+    
+    <item>
       <title>Moving to Netlify</title>
-      <link>/post/moving/</link>
+      <link>/blog/moving/</link>
       <pubDate>Fri, 02 Aug 2019 11:39:36 +0300</pubDate>
       
-      <guid>/post/moving/</guid>
+      <guid>/blog/moving/</guid>
       <description>Trying to move hosting to a Netlify. Process was quite fast, actually, but now for some reason I can&amp;rsquo;t build it. Github gives me an error that it can&amp;rsquo;t build, thought I thought that Netlify should give me it.
 So, it is a bit weird theme, because if post have not enought text it will not show any text on a main page. What? Well, it&amp;rsquo;s time to create my own theme anyway, I already spent 40 minutes finding whats wrong with my setup thinking I broke something.</description>
     </item>
     
     <item>
       <title>Gerrit</title>
-      <link>/post/gerrit/</link>
+      <link>/blog/gerrit/</link>
       <pubDate>Tue, 25 Jun 2019 19:10:57 +0000</pubDate>
       
-      <guid>/post/gerrit/</guid>
+      <guid>/blog/gerrit/</guid>
       <description>Gerrit. Oh how I don&amp;rsquo;t understand it. Sometimes I&amp;rsquo;m ok with it and sometimes I&amp;rsquo;m lost with &amp;lsquo;why anyone using it in 2019&amp;rsquo;.
 It sits atop GIT, doing same thing but a differently, you need to --amend all the time, you need to &amp;ldquo;Hey please don&amp;rsquo;t forget to git review -d 123456, because I just updated a commit&amp;rdquo; if more than one person working on a commit. An if you do have branches, because you may want to publish things for demos or staging, you git push -f.</description>
     </item>
     
     <item>
       <title>Intro</title>
-      <link>/post/intro/</link>
+      <link>/blog/intro/</link>
       <pubDate>Sun, 23 Jun 2019 21:27:59 +0300</pubDate>
       
-      <guid>/post/intro/</guid>
+      <guid>/blog/intro/</guid>
       <description>Hi, my name is Max This is my journey into the HUGO websites creation. There are many like it but this one is mine. I&amp;rsquo;ll share my experience and feelings about this. We&amp;rsquo;ll see where it&amp;rsquo;ll take me and what this site will be about. But for now it&amp;rsquo;ll be about my journey.
 Nice to see you here, although I can&amp;rsquo;t really see anybody as here is no trackers or ads, if you want to say hi — I&amp;rsquo;m on twitter @oburejin</description>
     </item>

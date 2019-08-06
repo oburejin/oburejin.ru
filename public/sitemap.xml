@@ -3,17 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/moving/</loc>
+    <loc>/blog/</loc>
+    <lastmod>2019-08-02T22:07:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/02-08-2019/</loc>
+    <lastmod>2019-08-02T22:07:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-08-02T22:07:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/moving/</loc>
     <lastmod>2019-08-02T11:39:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/gerrit/</loc>
+    <loc>/blog/gerrit/</loc>
     <lastmod>2019-06-25T19:10:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/intro/</loc>
+    <loc>/blog/intro/</loc>
     <lastmod>2019-06-23T21:27:59+03:00</lastmod>
   </url>
   
@@ -23,19 +40,7 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2019-08-02T11:39:36+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-08-02T11:39:36+03:00</lastmod>
     <priority>0</priority>
   </url>
   
