@@ -1,6 +1,5 @@
 +++
-date = "2019-08-05T21:00:00+00:00"
-draft = true
+date = "2019-08-22T17:00:00+00:00"
 title = "Javascript is missing"
 
 +++
@@ -8,174 +7,170 @@ Actually no, I planned to do this without JS as much as possible and for now the
 
 Also pages are missing, like "About" page or so, but I don't know yet how to do pages on HUGO, sure it should not be hard to do, but I have only a couple of evenings to work on it, so progress is very slow, but I'm learning to accept that and with this seems to work. Even when I spend all my free 30 minutes a day to find some small thing I'm still satisfied that I did that. This doesn't work well for my main activities and I get frustrated when little is achieved (it's most of the times, because this is how things work, little by little), but I'll get there.
 
-This update I added a `shortcode` that allows to insert a raw html, I wanted this to add some small things I can do with HTML/CSS, and maybe JS in some cases.
+This update I added a \`shortcode\` that allows to insert a raw html, I wanted this to add some small things I can do with HTML/CSS, and maybe JS in some cases. Thanks Ana Ulin for a post on how to easily do it: [https://anaulin.org/blog/hugo-raw-html-shortcode/](https://anaulin.org/blog/hugo-raw-html-shortcode/ "https://anaulin.org/blog/hugo-raw-html-shortcode/")
 
-And here it is.
+And here some quick fun example of what you can do.
 
 {{< rawhtml >}}
 
-  <style>
+<style>
 
-  .wrapper {
+.wrapper {
 
-    position: relative;
+position: relative;
 
-    width: 100%;
+width: 100%;
 
-    height: 100px;
+height: 100px;
 
-    border-radius: 5px;
+border-radius: 5px;
 
-  }
+}
 
-  .box,
+.box,
 
-  .box1,
+.box1,
 
-  .box2,
+.box2,
 
-  .box3,
+.box3,
 
-  .box4,
+.box4,
 
-  .box5,
+.box5,
 
-  .box6 {
+.box6 {
 
-    position: absolute;
+position: absolute;
 
-    width: 50px;
+width: 50px;
 
-    height: 50px;
+height: 50px;
 
-    margin: auto;
+margin: auto;
 
-    top: 0;
+top: 0;
 
-    left: 0;
+left: 0;
 
-    right: 0;
+right: 0;
 
-    bottom: 0;
+bottom: 0;
 
-    background-color: coral;
+background-color: coral;
 
-    animation-name: rotate;
+animation-name: rotate;
 
-    animation-duration: 7s;
+animation-duration: 7s;
 
-    animation-iteration-count: infinite;
+animation-iteration-count: infinite;
 
-    animation-timing-function: ease-in;
+animation-timing-function: ease-in;
 
-    z-index: 10;
+z-index: 10;
 
-  }
+}
 
-  .box1 {
+.box1 {
 
-    background-color: cornflowerblue;
+background-color: cornflowerblue;
 
-    animation-delay: .1s;
+animation-delay: .1s;
 
-    z-index: 9;
+z-index: 9;
 
-  }
+}
 
-  .box2 {
+.box2 {
 
-    background-color: teal;
+background-color: teal;
 
-    animation-delay: .2s;
+animation-delay: .2s;
 
-    z-index: 8;
+z-index: 8;
 
-  }
+}
 
-  .box3 {
+.box3 {
 
-    background-color: #b00b15;
+background-color: #b00b15;
 
-    animation-delay: .3s;
+animation-delay: .3s;
 
-    z-index: 7;
+z-index: 7;
 
-  }
+}
 
-  .box4 {
+.box4 {
 
-    background-color: gray;
+background-color: gray;
 
-    animation-delay: .4s;
+animation-delay: .4s;
 
-    z-index: 6;
+z-index: 6;
 
-  }
+}
 
-  .box5 {
+.box5 {
 
-    background-color: hotpink;
+background-color: hotpink;
 
-    animation-delay: .5s;
+animation-delay: .5s;
 
-    z-index: 5;
+z-index: 5;
 
-  }
+}
 
-  .box6 {
+.box6 {
 
-    background-color: limegreen;
+background-color: limegreen;
 
-    animation-delay: .6s;
+animation-delay: .6s;
 
-    z-index: 4;
+z-index: 4;
 
-  }
+}
 
-  @keyframes rotate {
+@keyframes rotate {
 
-    0% {
+0% {
 
-      transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
 
-    }
+}
 
-    50% {
+50% {
 
-      transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
 
-    }
+}
 
-    100% {
+100% {
 
-      transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
 
-    }
+}
 
-  }
+}
 
-  </style>
+</style>
 
-  
+<div class="wrapper">
 
-  <div class="wrapper">
+<div class="box"></div>
 
-    <div class="box"></div>
+<div class="box1"></div>
 
-    <div class="box1"></div>
+<div class="box2"></div>
 
-    <div class="box2"></div>
+<div class="box3"></div>
 
-    <div class="box3"></div>
+<div class="box4"></div>
 
-    <div class="box4"></div>
+<div class="box5"></div>
 
-    <div class="box5"></div>
+<div class="box6"></div>
 
-    <div class="box6"></div>
-
-  <div>
+<div>
 
 {{< /rawhtml >}}
-
-I took
